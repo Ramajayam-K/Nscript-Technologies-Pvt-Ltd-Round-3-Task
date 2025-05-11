@@ -14,6 +14,6 @@ for($i=0;$i<count($input);$i++){
     }
 }
 
-print_r($ObjectArr);
+echo  json_encode($ObjectArr);
 
 ?>
